@@ -1,7 +1,7 @@
 """
 Author : Gowdhaman Sadhasivam
-E-mail : gsadha2@uic.edu
 
+Tiny ImageNet Classification 
 """
 
 from keras.models import Sequential
@@ -16,7 +16,7 @@ import cPickle
 batch_size = 500
 nb_classes = 100
 nb_epoch = 100
-data_augmentation = False
+
 
 # input image dimensions
 img_rows, img_cols = 64, 64
