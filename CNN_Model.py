@@ -16,6 +16,7 @@ import cPickle
 batch_size = 500
 nb_classes = 100
 nb_epoch = 100
+data_augmentation = False
 
 
 # input image dimensions
